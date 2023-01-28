@@ -1,0 +1,13 @@
+:host {
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+}
+
+:host div {
+  display: flex;
+  overflow: visible;
+  flex-flow: wrap;
+}

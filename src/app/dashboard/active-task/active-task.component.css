@@ -1,0 +1,32 @@
+@import url(/src/styles/colors.css);
+@import url(/src/styles/constants.css);
+
+hr {
+  width: 90%;
+}
+
+.header_date {
+  margin-left: 15px;
+  display: inline-block;
+  color: var(--date-header);
+}
+
+.title {
+  margin-left: 40px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.left_days_indicator {
+  width: 100px;
+  height: 30px;
+  border-radius: var(--rectangle__border-radius);
+  bottom: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  right: 10px;
+  font-weight: var(--font-weight);
+  position: absolute;
+}

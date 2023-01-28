@@ -1,0 +1,15 @@
+<card-widget width="330px">
+  <div class="header_date">{{ lastUpdate.toDate() | date : "mediumDate" }}</div>
+  <div class="card-label-font title">
+    {{ title }}
+  </div>
+  <progress-bar
+    [color]="leftDaysColor"
+    [currentValue]="10"
+    [maxValue]="100"
+    [title]="taskCurrentStep"
+  ></progress-bar>
+  <hr />
+  <div *ngFor="let contributor of contributors"></div>
+  <div class="left_days_indicator" #leftDays> {{daysTillEnd}} days left </div>
+</card-widget>

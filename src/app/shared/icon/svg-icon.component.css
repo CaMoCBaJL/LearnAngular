@@ -1,0 +1,51 @@
+::ng-deep .mat-drawer-content {
+  overflow: visible;
+  margin-bottom: 10px;
+  display: contents !important;
+}
+
+mat-sidenav-container {
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 7%;
+}
+
+.icon__huge, .icon__large, .icon__medium, .icon__small {
+  transition: transform 1.5s, filter 1.5s;
+}
+:hover .icon__huge, :hover .icon__large, :hover .icon__medium, :hover .icon__small{
+  filter: drop-shadow( 0px 0px 3px rgba(0, 0, 0, 0.3));
+}
+
+.icon__small {
+  transform: scale(1.25) translateX(7.5%);
+}
+
+.icon__medium {
+  transform: scale(1.75) translateX(4.5%);
+}
+
+.icon__large {
+  transform: scale(2.25) translateX(2.8%);
+}
+
+.icon__huge {
+  margin-left: 12%;
+  transform: scale(2.75) translateX(1.5%);
+}
+
+:hover .icon__huge {
+  transform: scale(3.15) translateX(0.5%);
+}
+
+:hover .icon__large {
+  transform: scale(2.65) translateX(1.5%);
+}
+:hover .icon__medium {
+  transform: scale(2.15) translateX(2.5%);
+}
+
+:hover .icon__small {
+  transform: scale(1.65) translateX(4.5%);
+}
+

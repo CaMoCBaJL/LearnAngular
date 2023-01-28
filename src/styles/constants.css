@@ -1,0 +1,45 @@
+:root {
+  --rectangle__border-radius: 23px;
+  --progressbarr__border-radius: 10px;
+
+  --text__font-size: 20px;
+  --text__weight: 300;
+  --text__line-height: 30px;
+  --card-title-font__weight: 600;
+
+  --header__font-weight: 600;
+  --header__font-family: "Poppins";
+  --text__font-style: normal;
+  --header__font-size: 40px;
+  --header__line-height: 60px;
+}
+
+.header-font {
+  font-family: var(--header__font-family);
+  font-style: var(--text__font-style);
+  font-weight: var(--header__font-weight);
+  font-size: var(--header__font-size);
+  line-height: var(--header__line-height);
+}
+
+.header-font, .text-font {
+  margin-left: 10px;
+}
+
+.text-font {
+  font-family: "Helvetica";
+  font-style: var(--text__font-style);
+  font-weight: var(--text__weight);
+  font-size: var(--text__font-size);
+  line-height: var(--text__line-height);
+}
+
+.card-label-font {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: var(--card-title-font__weight);
+  font-size: var(--text__font-size);
+  line-height: var(--text__line-height);
+  display: grid;
+  justify-items: center;
+}

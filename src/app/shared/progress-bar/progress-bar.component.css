@@ -1,0 +1,32 @@
+@import url(/src/styles/constants.css);
+
+:host {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  display: block;
+}
+
+.progressbar {
+  height: 10px;
+  position: absolute;
+  background: #d9d9d9;
+  width: 87%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: var(--progressbarr__border-radius);
+}
+
+.progressbar_text {
+  position: relative;
+  top: 30px;
+}
+
+.progressbar_text > div {
+  position: absolute;
+}
+
+.progressbar_percent {
+  right: 30px;
+}

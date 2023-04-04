@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.0.0",
+    "@angular/cli": "latest",
     "@angular/common": "^15.0.0",
     "@angular/compiler": "^15.0.0",
     "@angular/core": "^15.0.0",
@@ -20,7 +21,6 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "@mdi/js": "^7.0.96",
-    "@angular/cli": "latest",
     "g": "^2.0.1",
     "moment": "^2.29.4",
     "rxjs": "~7.5.0",
@@ -31,6 +31,7 @@
     "@angular-devkit/build-angular": "^15.0.1",
     "@angular/cli": "~15.0.1",
     "@angular/compiler-cli": "^15.0.0",
+    "@schematics/angular": "^15.2.4",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",

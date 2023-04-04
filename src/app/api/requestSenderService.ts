@@ -1,12 +1,12 @@
 import { HttpClient, HttpParams } from "@angular/common/http";
-import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { Injectable, OnDestroy } from "@angular/core";
+import { Observable, Subject, takeUntil } from "rxjs";
 
 @Injectable({
   providedIn: 'root'
 })
 export class RequestSenderService {
-  constructor(private _httpClient: HttpClient){
+  constructor(private _httpClient: HttpClient) {
 
   }
 
